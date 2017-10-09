@@ -1,0 +1,27 @@
+require 'pry'
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>
+      Today
+
+
+    </h1>
+
+    <p>
+      <%t = Time.now%>
+      <%weekday = t.strftime("%A")%>
+      <%month = t.strftime("%B")%>
+      <%day = t.strftime("%d")%>
+      <%year = t.strftime("%Y")%>
+      <%="The date is #{weekday}, #{month} #{day}, #{year}"%>
+
+
+    </p>
+
+  </body>
+</html>
